@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ideas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+
+</head>
+
+<body>
+
+
+    <!---------------------Barra de Navegacion ------------------------------->
+    <header class="container-fluid fixed-top">
+
+
+
+        <h1 id="logo">Ideas Reales</h1>
+
+
+        <nav class="row navbar navbar-expand-lg bg-white" data-bs-theme="white">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barra"
+                    aria-controls="barra" aria-expanded="false" aria-label="Botón hamburguesa">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="barra">
+
+
+                    <ul class="navbar-nav text-center ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#uno" data-ancla="60">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#dos" data-ancla="60">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tres" data-ancla="60">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cuatro" data-ancla="60">Promo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cinco" data-ancla="60">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seis" data-ancla="60">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!---------------------------secciones------------------------------------>
+
+    <section class="container-fluid">
+        <div class="row" id="uno">
+            <div class="col bg-info-subtle p-0 mb-3">
+            </div>
+            <header class="container bg-black text-white text-center p-0">
+                <h1>Nuestras Maquinas</h1>
+            </header>
+            <div class="container p-0">
+
+                <div id="galeria" class="carousel slide" data-bs-ride="carousel" data-bs-interval="750"
+                    data-bs-wrap="false">
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#galeria" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Imagen 1"></button>
+                        <button type="button" data-bs-target="#galeria" data-bs-slide-to="1"
+                            aria-label="Imagen 2"></button>
+                        <button type="button" data-bs-target="#galeria" data-bs-slide-to="2"
+                            aria-label="Imagen 3"></button>
+                        <button type="button" data-bs-target="#galeria" data-bs-slide-to="3"
+                            aria-label="Imagen 4"></button>
+                    </div>
+
+                    
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <picture>
+                                <source media="(max-width: 558px)" srcset="recursos/500_carrusel_01.png">
+                                <source media="(max-width: 992px)" srcset="recursos/900_carrusel_01.png">
+                                <img class="d-block w-100" src="recursos/carrusel_01.png" alt="imagen">
+                                <div class="carousel-caption d-none d-md-block">
+                            </picture>
+                                <h2>Ricoh 9100</h2>
+                                <p>Imprime hasta 110 páginas por minuto
+                                    Produce una calidad de impresión de hasta 4800 dpi, similar a las de las impresoras
+                                    offset</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <picture>
+                                <source media="(max-width: 558px)" srcset="recursos/500_carrusel_02.png">
+                                <source media="(max-width: 992px)" srcset="recursos/900_carrusel_02.png">
+                                <img class="d-block w-100" src="recursos/carrusel_02.png" alt="imagen">
+                                <div class="carousel-caption d-none d-md-block">
+                            </picture>
+                                <h2>Ricoh 9100</h2>
+                                <p>Salida de alta calidad con eficiencia energética</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <picture>
+                                <source media="(max-width: 558px)" srcset="recursos/500_carrusel_03.png">
+                                <source media="(max-width: 992px)" srcset="recursos/900_carrusel_03.png">
+                                <img class="d-block w-100" src="recursos/carrusel_03.png" alt="imagen">
+                                <div class="carousel-caption d-none d-md-block">
+                            </picture>
+                                <h2>Ploteos</h2>
+                                <p>Todo tipo de ploteos: Lonas, vinilos. microperforado,Lona Blackout.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <picture>
+                                <source media="(max-width: 558px)" srcset="recursos/500_carrusel_04.png">
+                                <source media="(max-width: 992px)" srcset="recursos/900_carrusel_04.png">
+                                <img class="d-block w-100" src="recursos/carrusel_04.png" alt="imagen">
+                                <div class="carousel-caption d-none d-md-block">
+
+                                </picture>
+                            
+                                <h2>Plotter</h2>
+                                <p>Cortes a medida de cualquier tipo</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#galeria" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#galeria" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+         </div>
+        </div>
+    </section>
+    <!----------------------------Pastilla------------------------------------>
+
+  
+        <section class="container-fluid">
+            <div class="row" id="dos">
+                <div class="col bg-info-subtle p-0 mb-3">
+                </div>
+                <header class="container bg-black text-white text-center p-0">
+                    <h1>Nosotros</h1>
+                </header>
+                <div class="container p-0">
+                    <header class="color01">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-10 mx-auto col-xs-7 col-sm-7 col-md-7 col-lg-8 col-xl-7 col-xxl-7">
+                                    <h1 class="display-1 text-success pt-5">¿Quienes somos?</h1>
+                                    <h2 class="display-3">Lider en el mercado</h2>
+                                    <p class="lead">Somos una empresa de servicio gráfico líder en el mercado.</p>
+                                    <p>Basamos nuestra actividad principal en la impresión de todos los productos gráficos:
+                                        editoriales y comerciales.
+                                        Realizamos impresiones bajo demanda de libros, catálogos, agendas, cuadernos,
+                                        revistas, folletos, dípticos, trípticos, carpetas, tarjetas, entre otros.
+                                        Contamos con la última tecnología en impresión digital y offset.</p>
+                                    <p>Somos el medio para que te puedas comunicar y los traductores de tu idea.</p>
+                                    </div>
+                                   
+
+                                <div class="col-10 mx-auto col-md-5 col-lg-4 pt-lg-5 my-4">
+                                    <img src="recursos/logo_pas.png" alt="logo_pas.png"
+                                        class="img-fluid rounded-circle img-thumbnail">
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+            </div>
+            </div>
+        </section>
+    
+    <!----------------------------Pastilla------------------------------------>
+   
+        <section class="container-fluid">
+            <div class="row" id="tres">
+                <div class="col bg-info-subtle p-0 mb-3">
+                </div>
+                <header class="container bg-black text-white text-center p-0">
+                    <h1>Servicios </h1>
+                </header>
+                <div class="container p-0">
+                    <section class="container">
+                        <div class="row mb-3">
+                            <div class="row mb-3 justify-content-center">
+                                <div class="col-sm-8 col-md-7 col-lg-12">
+                                    <h2></h2>
+                                    <ul class="card-group p-0 d-flex flex-column flex-lg-row">
+                                        <li class="card m-2">
+                                            <picture>
+                                                <source media="(max-width: 558px)" srcset="recursos/500_pastilla_01.png">
+                                                <source media="(max-width: 992px)" srcset="recursos/900_pastilla_01.png">
+                                                <img class="card-img-top" src="recursos/pastilla_01.png" alt="imagen"></picture>
+                                            <div class="card-body">
+                                                <h3 class="card-title h2">Folletos Offset</h3>
+                                                <p class="card-text">Los talleres que sólo tienen una tecnología de
+                                                    impresión siempre te dirán que lo suyo es lo mejor. disponemos de ambas
+                                                    tecnologías con lo que te aseguramos un consejo honesto sobre cuál es la
+                                                    que te conviene</p>
+                                            </div>
+                                        </li>
+                                        <li class="card m-2">
+                                            <picture>
+                                                <source media="(max-width: 558px)" srcset="recursos/500_pastilla_02.png">
+                                                <source media="(max-width: 992px)" srcset="recursos/900_pastilla_02.png">
+                                                <img class="card-img-top" src="recursos/pastilla_02.png" alt="imagen"></picture>
+                                            <div class="card-body">
+                                                <h3 class="card-title h2">Servicio de Digitalizacion.</h3>
+                                                <p class="card-text">Soluciones de digitalización al instante!! Contamos con
+                                                    equipos de gran velocidad y automatización de digitalización que nos
+                                                    permite adaptamos a las necesidades de los clientes.</p>
+                                            </div>
+                                        </li>
+                                        <li class="d-none d-lg-block d-xl-none w-100"></li>
+                                        <li class="card m-2">
+                                            <picture>
+                                                <source media="(max-width: 558px)" srcset="recursos/500_pastilla_03.png">
+                                                <source media="(max-width: 992px)" srcset="recursos/900_pastilla_03.png">
+                                                <img class="card-img-top" src="recursos/pastilla_03.png" alt="imagen">
+                                            </picture>
+                                            <div class="card-body">
+                                                <h3 class="card-title h2">Grafica Veicular</h3>
+                                                <p class="card-text">La decoración de gráfica vehicular la realizamos en
+                                                    vinilo de impresión o corte, dado que es el más resistente a las
+                                                    condiciones climáticas.</p>
+                                            </div>
+                                        </li>
+                                        <li class="card m-2">
+                                            <picture>
+                                                <source media="(max-width: 558px)" srcset="recursos/500_pastilla_04.png">
+                                                <source media="(max-width: 992px)" srcset="recursos/900_pastilla_04.png">
+                                                <img class="card-img-top" src="recursos/pastilla_04.png" alt="imagen">
+                                            </picture>
+                                            <div class="card-body">
+                                                <h3 class="card-title h2">Servicio de Diseño</h3>
+                                                <p class="card-text">Contamos con un equipo de diseñadores gráficos que te
+                                                    ayudan a concretar tus ideas y potenciar tu negocio. Reuniones
+                                                    presenciales, virtuales, hacemos visitas a tu negocio sin cargo para
+                                                    poder asesorarte…</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            </div>
+        </section>
+    
+    <!-----------------------------Video-------------------------------------->
+    <section class="container-fluid">
+        <div class="row" id="cuatro">
+            <div class="col bg-info-subtle p-0 mb-3">
+            </div>
+            <header class="container bg-black text-white text-center p-0">
+                <h1>Promo</h1>
+            </header>
+            <div class="container p-0">
+
+                <header class="container fondo3 p-0 mb-3">
+
+                </header>
+                <div class="col-md-9 py-2">
+
+                    <div class="ratio ratio-16x9 bg-dark">
+                        <video
+                            src="recursos/Y2meta.app-Ricoh Pro C9100 - Un nuevo tiempo para las prensas digitales de alta producción-(1080p).mp4"
+                            controls></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-----------------------------------Galeria------------------------------>
+
+
+    <section class="container-fluid">
+        <div class="row" id="cinco">
+            <div class="col bg-info-subtle p-0 mb-3">
+            </div>
+            <header class="container bg-black text-white text-center p-0">
+                <h1>Nuestros Trabajos</h1>
+            </header>
+            <div class="container p-0">
+
+            <section id="galeria_">
+        <div id="album">
+            
+
+            <a data-fancybox="galeria_"
+            data-srcset="recursos/galeria/500_celu.png 500w, recusos/galeria/900_tablet.png 900w, recursos/galeria/1920_pc.png 1920w"
+            href="recursos/galeria/1920_pc.png 1920w">
+             <img src="recursos/galeria/mini_.png" alt="folleto">
+            </a>
+            <a data-fancybox="galeria_"
+            data-srcset="recursos/galeria/500_celu_2.png 500w, recusos/galeria/900_tablet_3.png 900w, recursos/galeria/1920_pc_2.png 1920w"
+            href="recursos/galeria/1920_pc_2.png 1920w">
+             <img src="recursos/galeria/mini_2.png" alt="folleto">
+            </a>
+
+            <a data-fancybox="galeria_"
+            data-srcset="recursos/galeria/500_celu_3.png 500w, recursos/galeria/900_tablet_3.png 900w, recursos/galeria/1920_pc_3.png"
+            href="recursos/galeria/1920_pc_3.png">
+            <img src="recursos/galeria/mini_3.png" alt="pltter">
+            </a>
+        
+            <a data-fancybox="galeria_"
+            data-srcset="recursos/galeria/500_celu_5.png 500w, recursos/galeria/900_tablet_5.png 900w, recursos/galeria/1920_pc_5.png 1920w"
+            href="recursos/galeria/1920_pc_5.png">
+            <img src="recursos/galeria/mini_5.png" alt="vinilo">
+            </a>
+            <a data-fancybox="galeria_"
+            data-srcset="recursos/galeria/500_celu_4.png 500w, recursos/galeria/900_tablet_4.png 900w, recursos/galeria/1920_pc_4.png 1920w"
+            href="recursos/galeria/1920_pc_4.png">
+            <img src="recursos/galeria/mini_4.png" alt="vinilo">
+            </a>
+            <a data-fancybox="galeria_"
+            data-srcset="recursos/galeria/500_celu_6.png 500w, recursos/galeria/900_tablet_6.png 900w, recursos/galeria/1920_pc_6.png 1920w"
+            href="recursos/galeria/1920_pc_6.png">
+            <img src="recursos/galeria/mini_6.png" alt="vinilo">
+            </a>
+
+           
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <!--------------------------Formulario------------------------------------>
+
+    <section class="container-fluid">
+        <div class="row" id="seis">
+            <div class="col bg-info-subtle p-0 mb-3">
+            </div>
+            <div class="container p-0">
+
+                <header class="container fondo3 p-0 mb-3">
+
+                </header>
+            </section>
+    <section class="py-3 bg- text-light">
+        <div class="container">
+            <form action="" class="row needs-validation" novalidate>
+                <div class="col-md-6">
+                    <p class="lead">datos personales</p>
+                    <div class="mb-3">
+                        <label for="nombres">Nombres*</label>
+                        <input type="text" id="nombres" class="form-control" placeholder="Completar con Nombres*"
+                            required>
+                        <div class="invalid-feedback bg-danger text-light p-1 w-50 rounded">
+                            Falta completar campo
+                        </div>
+                        <div class="valid-feedback bg-success text-light p-1 w-50 rounded">
+                            Campo ok :D
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Apellidos" class="form-label">Apellidos*</label>
+                        <input type="text" class="form-control" id="Apellidos" placeholder="completar con Apellidos*"
+                            required>
+                        <div class="invalid-feedback">
+                            Falta completar campo
+                        </div>
+                        <div class="valid-feedback">
+                            Campo ok :D
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tu-e-mail" class="form-label">E-mail*</label>
+                        <input type="email" class="form-control" id="tu-e-mail" placeholder="completar con e-mail*"
+                            required>
+                        <div class="invalid-feedback">
+                            No has ingresado una direccion de e-mail.
+                        </div>
+
+                        <div class="valid-feedback">
+                            Todo ok :D
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p class="lead">Dejanos tu consulta</p>
+                    <div class="mb-3">
+                        <label for="consulta-mensaje" class="form-label">Consulta / mensaje </label>
+                        <textarea class="form-control" id="consulta-mensaje" rows="3"
+                            placeholder="Tu consulta / mensaje..(máxima cantidad de caracteres 500) "
+                            maxlength="500"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary">enviar</button>
+                        <button type="reset" class="btn btn-danger">borrar</button>
+                        <p class="small mt-3">(*) Estos campos son obligatorios</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    </section>
+
+    <!---------------------------Footer--------------------------------------->
+    <footer id="footer">
+        <div class="footer-links">
+            <h3 class="text-footer">Seguinos</h3>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank"><img src="recursos/facebook.png" alt="facebook" /></a>
+                <a href="https://instagram.com" target="_blank"><img src="recursos/instagram.png" alt="instagram" /></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><img src="recursos/wap.png" alt="whatsapp" /></a>
+                <a href="https://youtube.com" target="_blank"><img src="recursos/yoy.png" alt="youtube" /></a>
+            </div> <br>
+
+
+            <!--<p>Diseño Multimedial - Escuela Davinci. Profesora Flor Coda. DMT2BV  Priscila Oliva; Maquetado y Desarrollo web</p>
+            <p>Copyright 2023</p>!-->
+
+            <ul>
+                <li>Diseño Multimedial</li>
+                <li>Escuela: Davinci.</li>
+                <li>Profesora: Flor Coda.</li>
+                <li>Comision: DMT2BV</li>
+                <li>Alumna: </li>
+                <li>Maquetado y Desarrollo web</li>
+                <li>Copyright 2023</li>
+            </ul>
+    </footer>
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <script src="js/marcaBoton.js"></script>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+
+    
+</body>
+
+</html>

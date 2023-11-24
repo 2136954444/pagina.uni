@@ -1,0 +1,144 @@
+body{
+    background-color: #3a1a0e;
+    background-image: url(recursos/fondo_02.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+header{
+    position: relative;
+    box-shadow: #313131 3px 3px 3px;
+}
+
+
+
+#logo {
+    width: 40px;
+    height: 40px;
+    background: url("recursos/logo_01-01.png");
+    font-size: 0;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    z-index: 1;
+}
+
+.active {
+    background-color: aqua;
+    color: gray !important;
+}
+
+
+
+
+section:first-of-type {
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 991px){
+    #logo {
+        left: calc(50% - 20px);
+    }
+}
+
+
+
+.carousel-indicators {
+    margin-bottom: 30px;
+ }
+ 
+ 
+ 
+.carousel-indicators [data-bs-target]  {
+     width: 15px;
+     height: 15px;
+     border: none;
+     border-radius: 50%;
+     background: lightsalmon;
+}
+ 
+ 
+ 
+.carousel-indicators .active {
+     background: orangered;
+ }
+ 
+
+ .carousel-caption {
+     background: rgba(0, 0, 0, .5);
+ }
+
+
+ .btn-compra{
+    background-color:#8D4C34 ;
+    color:#DFD1C0 ;
+}
+.btn-compra:hover{
+    color:#8D4C34 ;
+    background-color:#DFD1C0 ;
+}
+
+.btn-compra:active{
+    background-color:#3a1a0e!important ;
+    color: #dfd1c0 !important; ;
+}
+
+.color01{
+    color: white;
+}
+
+.text-success {
+    --bs-text-opacity: 1;
+    color: rgba( var(--bs-text-opacity)) !important;
+}
+
+.foto{
+    background: url() no-repeat center center ;
+    background-color: #313131;
+    background-blend-mode: overlay;
+    background-size: cover;
+    padding: 6rem;    
+    transition:.5s ease-in ;
+}
+.foto a{
+    opacity: .5;
+}
+.foto a:hover{
+    opacity: 1;
+}
+.foto:hover{
+    background: url() no-repeat center center ;
+    background-size: cover;
+    transition:.7s ease-out;
+}
+
+
+   
+
+#footer{
+    text-align: center;
+    background-color: none;
+    color: white;
+}
+
+#galeria_{
+    margin: auto;
+    
+}
+#galeria_ img{
+    margin: 1%;
+}
+
+#galeria_ a{
+    text-decoration: none;   
+}
+
+#galeria_{
+    justify-content: center;
+}
+
+
